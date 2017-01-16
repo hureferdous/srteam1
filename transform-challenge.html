@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html leng="en">
+      <head>
+	       <meta charset="UTF-8">
+		   <title>Transform</title>
+		
+		   <style type="text/css">
+		      .box{
+			      width:300px;
+				  height:100px;
+				   margin:0 auto;
+				  background-color:red;
+				  border:solid 3px black;
+				  border-radius:10px;
+			  }
+			  h1{
+			      text-align:center;
+			  }
+			  #transform1{
+			      
+			     transform:translate(300px,50px);
+			  }
+			   #transform2{
+			      
+			     transform:rotate(50deg);
+			  }
+			  #transform3{
+			      margin-top:150px;
+			     transform:scale(1,1.5);
+			  }
+			  #transform4{
+			      margin-top:150px;
+			     transform:skew(20deg,30deg);
+			  }
+			</style>
+	  </head>
+	  <body>
+	      <div class="box" >
+		       <h1>
+			      Box 
+			   </h1>
+		  </div>
+		  <div class="box" id="transform1" >
+		       <h1>
+			      I am translated
+			   </h1>
+		  </div>
+		  <div class="box" id="transform2" >
+		       <h1>
+			      I am rotate
+			   </h1>
+		  </div>
+		  <div class="box" id="transform3" >
+		       <h1>
+			      I am scaled
+			   </h1>
+		  </div>
+		  <div class="box" id="transform4" >
+		       <h1>
+			      I am skew
+			   </h1>
+		  </div>
+	  </body>
+</html>
