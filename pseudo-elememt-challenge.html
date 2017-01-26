@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html leng="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Media Challenge2</title>
+		 <link rel="stylesheet" media="screen and (max-width: 400px)" href="mobile.css" />
+         <link rel="stylesheet" media="screen and (min-width: 401px)" href="desktop.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<style type="text/css">
+		   @media screen and (min-width: 400px){
+		     .pagestyle{
+			     background-image:url(img/background1.jpg);
+				 background-size:cover; 
+			 }
+		   #container{
+			     width:960px;
+				 margin-right:auto;
+				 margin-left:auto;
+				 font-size:0;
+				 position:relative;
+				 
+			 }
+			 .box {
+			     width: 100%;
+				 position:relative;
+			     display:block;
+				 background-color:#22aa99;
+				 padding: 10px 0px;
+                 border-radius: 10px;
+				 font-family:serif;
+				 font-size: 22px;
+				 text-align: center;
+	
+			 }
+			 
+			 .sidebar{
+				  display:inline-block;
+				  width:475px;
+				  margin:10px 10px 10px 0px;
+				  box-sizing:border-box;
+				  padding:0px 20px;
+				 
+			 }
+			 .content{
+				  display:inline-block;
+				  width:475px;
+				  margin:10px 0px;
+				  box-sizing:border-box;
+				  padding:0px 20px;
+			 }
+			 p{
+				padding-bottom: 30px;
+				color:white;
+			
+			}
+			p::first-line {
+                font-weight: bold;
+               font-size: 1.2em;
+               }
+			p::first-letter {
+                 font-weight: bolder;
+                font-size: 2em;
+				color:red;
+               }
+			#right_to_top{
+				position: absolute;
+				bottom:-100px;
+				right:-90px;
+			}
+            #left_to_top{
+				position: absolute;
+				bottom:-100px;
+				left:-580px;
+			}
+			#header{
+			    top: 0px;
+				right: 0px;
+	
+			
+				z-index: 10; 
+
+			}
+		}	
+		@media screen and (max-width: 1000px){
+		     .pagestyle{
+			     background-image:url(img/background1.jpg);
+				 background-size:cover; 
+			 }
+		   #container{
+			     width:960px;
+				 margin-right:auto;
+				 margin-left:auto;
+				 font-size:0;
+				 position:relative;
+				 
+			 }
+			 .box {
+			     width: 100%;
+				 position:relative;
+			     display:block;
+				 background-color:#22aa99;
+				 padding: 10px 0px;
+                 border-radius: 10px;
+				 font-family:serif;
+				 font-size: 22px;
+				 text-align: center;
+	
+			 }
+			 
+			 .sidebar{
+				  display:inline-block;
+				  width:475px;
+				  margin:10px 10px 10px 0px;
+				  box-sizing:border-box;
+				  padding:0px 20px;
+				 
+			 }
+			 .content{
+				  display:inline-block;
+				  width:475px;
+				  margin:10px 0px;
+				  box-sizing:border-box;
+				  padding:0px 20px;
+			 }
+			 p{
+				padding-bottom: 30px;
+			    color:white;
+			}
+			p::first-line {
+                font-weight: bold;
+               font-size: 1.2em;
+               }
+			p::first-letter {
+                 font-weight: bolder;
+                font-size: 2em;
+				color:red;
+               }
+			#right_to_top{
+				position: absolute;
+				bottom:-100px;
+				right:-90px;
+			}
+            #left_to_top{
+				position: absolute;
+				bottom:-100px;
+				left:-580px;
+			}
+			#header{
+			    top: 0px;
+				right: 0px;
+	
+			
+				z-index: 10; 
+
+			}
+		}	
+		</style>
+	 </head>
+     <body class="pagestyle">
+	     <div id="container">
+		     <div id="header" class="box">
+			      <h1>Header </h1>
+			 </div>
+			 <div  class="box sidebar">
+			         <h2>Sidebar</h2>
+				     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor esse cumque unde, explicabo totam, in sequi iste recusandae ipsa laudantium, neque excepturi molestias modi velit animi asperiores suscipit? Voluptas.</p>
+		             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor esse cumque unde, explicabo totam, in sequi iste recusandae ipsa laudantium, neque excepturi molestias modi velit animi asperiores suscipit? Voluptas.</p>
+		
+			 </div>
+			 <div class="box content">
+			         <h2>Content</h2>
+				     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor esse cumque unde, explicabo totam, in sequi iste recusandae ipsa laudantium, neque excepturi molestias modi velit animi asperiores suscipit? Voluptas.</p>
+		             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor esse cumque unde, explicabo totam, in sequi iste recusandae ipsa laudantium, neque excepturi molestias modi velit animi asperiores suscipit? Voluptas.</p>
+		   
+			 </div>
+			 <div  class="box sidebar">
+			         <h2>Sidebar</h2>
+				     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor esse cumque unde, explicabo totam, in sequi iste recusandae ipsa laudantium, neque excepturi molestias modi velit animi asperiores suscipit? Voluptas.</p>
+		             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor esse cumque unde, explicabo totam, in sequi iste recusandae ipsa laudantium, neque excepturi molestias modi velit animi asperiores suscipit? Voluptas.</p>
+		
+			 </div>
+			 <div class="box content">
+			         <h2>Content</h2>
+				     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor esse cumque unde, explicabo totam, in sequi iste recusandae ipsa laudantium, neque excepturi molestias modi velit animi asperiores suscipit? Voluptas.</p>
+		             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor esse cumque unde, explicabo totam, in sequi iste recusandae ipsa laudantium, neque excepturi molestias modi velit animi asperiores suscipit? Voluptas.</p>
+		             <a href="#" alt="Link to top"><img id="right_to_top" src="img/arrow.png"></a>
+					 <a href="#" alt="Link to top"><img id="left_to_top" src="img/arrow.png"></a>
+			 </div>
+			 <div class="box">
+			      <h2>Footer</h2>
+			 </div>
+		 </div>
+	 </body>
+</html>	 
