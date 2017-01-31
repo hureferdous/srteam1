@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Challenges 3 </title>
+
+        <style type="text/css">
+		     #UserRegForm{
+			      width:600px;
+				  height:600px;
+				  border-radius:10px;
+				  background-color:#FAEBD7;
+				  margin:0 auto;
+				  font-size:20px;
+				  color:black;
+				  padding:30px;
+			 }
+			 .form-input{
+			      
+				  padding: 12px 20px;
+                   margin: 20px 0;
+                   box-sizing: border-box;
+				   border-radius:10px;
+			 }
+			 input:focus{
+			 background-color: lightblue;
+			 border: 3px solid #555;
+			 }
+			 .submit1{
+			      color:white;
+				  background-color:green;
+				  width:150px;
+				  height:50px;
+				  border: 3px solid #555;
+				  border-radius:10px;
+				  margin:20px 100px;
+				  font-size:20px;
+			 }
+			 #legend1{
+			     width:200px;
+				  height:50px;
+				  border: 3px solid #555;
+				  border-radius:10px;
+				  color:black;
+				  background-color:#b3ffff;
+				  font-size:20px;
+				  padding:10px; 
+			 }
+			 
+		</style>
+  </head>		
+<body>
+<form id="UserRegForm" action="server_side_script.php" method="post">
+    <fieldset>
+    <legend id="legend1"> Personal Details </legend>
+	  <label for="fname">First Name:</label>
+       <input type="text" name="fname"  id="fname" class="form-input" autofocus placeholder="First Name" required="" /></br>
+       <label for="password">Password:</label>
+       <input type="password" name="password" class="form-input"id="password" placeholder="Password" required="" autofocus/></br>
+         
+	 <label for="email"> Email:</label> 
+    <input type="emil" name="email" class="form-input" placeholder="Email" autofocus required="" /><br>
+       <label for="telephone"> Telephone:</label> 
+   <input type="tel" name="telephone" class="form-input" placeholder="Telephone Number" required="" /><br>
+         <label for="website"> Website:</label> 
+  <input type="url" name="url"class="form-input"/><br>
+   <input type="submit" value="Submit" class="submit1"/>
+   </fieldset>
+</form>
+</body>
+</html>
